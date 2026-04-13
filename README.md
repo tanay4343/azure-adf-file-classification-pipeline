@@ -30,19 +30,18 @@ The pipeline supports multiple file types such as:
 
 ```mermaid
 flowchart TD
-    A[Source ADLS Container] --> B[Get Metadata Activity]
-    B --> C[childItems (List of Files)]
-    C --> D[ForEach Loop]
-    D --> E[Copy Activity]
-    E --> F[Dynamic Expression Logic]
-    F --> G[Destination ADLS Container]
+    A["Source ADLS Container"] --> B["Get Metadata Activity"]
+    B --> C["childItems - List of Files"]
+    C --> D["ForEach Loop"]
+    D --> E["Copy Activity"]
+    E --> F["Extract File Extension"]
+    F --> G["Dynamic Folder Creation"]
 
-    G --> H[csv/]
-    G --> I[pdf/]
-    G --> J[xlsx/]
-    G --> K[txt/]
+    G --> H["csv"]
+    G --> I["pdf"]
+    G --> J["xlsx"]
+    G --> K["txt"]
 ```
-
 ---
 
 ## ⚙️ Technologies Used
