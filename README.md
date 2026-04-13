@@ -28,6 +28,7 @@ The pipeline supports multiple file types such as:
 
 ### 🔄 Flow Diagram
 
+```mermaid
 flowchart TD
     A[Source ADLS Container] --> B[Get Metadata Activity]
     B --> C[childItems (List of Files)]
@@ -40,6 +41,7 @@ flowchart TD
     G --> I[pdf/]
     G --> J[xlsx/]
     G --> K[txt/]
+```
 
 ---
 
