@@ -27,7 +27,7 @@ The pipeline supports multiple file types such as:
 ## 🏗️ Architecture
 
 ### 🔄 Flow Diagram
-templates/ADF.png
+![ADF Diagram](templates/ADF.png)
 
 ```mermaid
 flowchart TD
