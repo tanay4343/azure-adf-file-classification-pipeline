@@ -1,0 +1,9 @@
+{
+	"name": "file-filter-pipeline",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8134dd8c-9dcc-44e2-b9ad-01eec3b086a5",
+		"tenantId": "c4c5f25d-ce63-4d2d-8769-ad214d1761e9"
+	}
+}

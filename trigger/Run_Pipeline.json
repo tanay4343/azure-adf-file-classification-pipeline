@@ -1,0 +1,17 @@
+{
+	"name": "Run_Pipeline",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/edf74b8c-d98b-4f7a-abf0-6e2c494b4e63/resourceGroups/File_Filtering/providers/Microsoft.Storage/storageAccounts/filestoring",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

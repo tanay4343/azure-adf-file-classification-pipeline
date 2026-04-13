@@ -1,0 +1,33 @@
+{
+	"name": "schedule_pipeline",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "source-destination",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-04-13T12:33:00",
+				"endTime": "2026-04-15T12:53:00",
+				"timeZone": "India Standard Time",
+				"schedule": {
+					"minutes": [
+						5
+					],
+					"hours": [
+						12
+					]
+				}
+			}
+		}
+	}
+}
